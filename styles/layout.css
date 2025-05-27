@@ -14,13 +14,38 @@ main {
         max-width: 52.8rem;
         margin-left: auto;
     }
+
+    .back {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 2.4rem;
+    }
+
+    h1 {
+        font: var(--h1);
+    }
 }
 
 aside {
     background-color: var(--surface-secondary);
     padding: 6.4rem;
 
-    aside-container {
+    .aside-container {
         max-width: 49.6rem;
+        
+        /*ou > img*/
+        & > img {
+            margin-top: 3.2rem;
+        }
+    }
+
+    h2 {
+        font: var(--h2);
+        margin-bottom: 0.8rem;
+ 
+        span {
+            color: var(--text-highlight);
+        }
     }
 }
