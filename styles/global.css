@@ -9,6 +9,7 @@
     --font-family: 'Poppins', sans-serif;
     --h1: 600 2.4rem/125% var(--font-family);
     --h2: 600 4rem/125% var(--font-family);
+    --legend: 600 1.6rem/125% var(--font-family);
     --text: 400 1.6rem/150% var(--font-family);
     --text-small: 400 1.4rem/140% var(--font-family);
 
