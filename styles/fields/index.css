@@ -53,3 +53,15 @@ select {
     background-repeat: no-repeat;
     background-position: calc(100% - 1.6rem);
 }
+
+.address .flex {
+    gap: 2rem;
+}
+
+input {
+    &[disabled] {
+        background-color: var(--surface-disabled);
+        border: 1px solid var(--stroke-default);
+        color: var(--text-primary);
+    }
+}

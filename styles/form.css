@@ -16,3 +16,11 @@ legend {
     font: var(--legend);
     margin-bottom: 2.4rem;
 }
+
+fieldset + fieldset {
+    margin-top: 4.8rem;
+}
+
+.input-wrapper:has([disabled]) {
+    opacity: 0.5;
+}
